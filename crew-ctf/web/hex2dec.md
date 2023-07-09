@@ -1,4 +1,4 @@
-# Hex To Dec
+# Hex2Dec
 ## The Basics
 On first load of the site, we were greated by the following screen:
 ![image](https://github.com/L-T-B/CTFS/assets/62217895/19b49941-4dfb-4f0f-b808-8fe14a57b921)
