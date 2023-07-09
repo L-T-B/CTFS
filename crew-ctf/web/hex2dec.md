@@ -1,12 +1,15 @@
 # Hex2Dec
 ## The Basics
 On first load of the site, we were greated by the following screen:
+
 ![image](https://github.com/L-T-B/CTFS/assets/62217895/19b49941-4dfb-4f0f-b808-8fe14a57b921)
 
 When submitting a hex value the website was updated to include the value:
+
 ![image](https://github.com/L-T-B/CTFS/assets/62217895/29fce33a-0686-4d6b-bf46-832c535c1be2)
 
 Looking under the hood we can see the following javascript:
+
 ![image](https://github.com/L-T-B/CTFS/assets/62217895/da31b2c0-3b45-4a35-a3c2-8b99a8afdcba)
 
 On closer inspection we can find that the regex (`^[0-f +-]+$`) is misconfigured and includes all chars between charcode 48 and 102 as well as plus, minus and space.
